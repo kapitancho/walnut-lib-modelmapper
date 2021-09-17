@@ -11,7 +11,9 @@
 			"Walnut\\Lib\\ModelMapper\\": "src/"
 		}
 	},
-	"require": {},
+	"require": {
+		"walnut/lib_identitygenerator": "^0.0.1"
+	},
 	"require-dev": {
 		"vimeo/psalm": "^4.9.3",
 		"phpunit/phpunit": "^9.5.9"
