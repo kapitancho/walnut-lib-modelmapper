@@ -10,5 +10,5 @@ interface ModelIdentityGeneratorFactory {
 	 * @return IdentityGenerator
 	 * @throws MappingNotAvailable
 	 */
-	public function getMapper(string $className): IdentityGenerator;
+	public function getIdentityGenerator(string $className): IdentityGenerator;
 }
