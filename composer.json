@@ -12,7 +12,8 @@
 		}
 	},
 	"require": {
-		"walnut/lib_identitygenerator": "^0.0.1"
+		"walnut/lib_identitygenerator": "^0.0.1",
+		"php": ">=8.0.0"
 	},
 	"require-dev": {
 		"vimeo/psalm": "^4.9.3",
