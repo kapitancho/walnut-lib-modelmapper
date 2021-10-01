@@ -13,10 +13,10 @@ interface ModelMapper {
 	public function all(): array;
 
 	/**
-	 * @param ConditionChecker<T> $conditionChecker
+	 * @param callable(T): bool $conditionChecker
 	 * @return T[]
 	 */
-	public function byCondition(ConditionChecker $conditionChecker): array;
+	public function byCondition(callable $conditionChecker): array;
 
 	/**
 	 * @param string $entryId
