@@ -3,7 +3,7 @@
 namespace Walnut\Lib\ModelMapper;
 
 /**
- * @template T
+ * @template T of object
  */
 interface ModelParser {
 	/**
